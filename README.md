@@ -10,7 +10,7 @@ Grace Wangui
 ![my country finder](https://user-images.githubusercontent.com/99409074/188289759-5683dd34-b633-4521-9f45-66ad593e341c.png)
 ![my country finder 2](https://user-images.githubusercontent.com/99409074/188290094-970e2948-fb95-4003-93d9-d5c7f948fedf.png)
 
-#Getting files
+# Getting files
 Fork the repo
 
 Create a new branch in your terminal (git checkout -b improve-feature)
