@@ -16,7 +16,7 @@ The app is a HTML/CSS/JS frontend that accesses data from a public API.
 ![my country finder 2](https://user-images.githubusercontent.com/99409074/188318568-688c1b05-066e-410d-a065-371691655013.png)
 
 
-# Gettin files
+# Getting files
 Create a new branch in your terminal (git checkout -b improve-feature)
 
 Install the prerequisites
