@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded",()=>{
     console.log('document has been parsed')
+   
+})
+
 let searchBtn = document.getElementById("search-btn");
 let countryInp = document.getElementById("country-inp");
 searchBtn.addEventListener("click", () => {
@@ -56,6 +59,8 @@ searchBtn.addEventListener("click", () => {
                   .split(",")
                   .join(", ")}</span>
             </div>
+            <button class='btn btn-outline-secondary'  onClick='likeClick()' > <span class="bi bi-heart"  id="like"> </span> 
+            <span class='text-danger d-none bi bi-heart-fill' id="like-fill"> </span></button>
         </div>
       `;
     })
@@ -66,5 +71,20 @@ searchBtn.addEventListener("click", () => {
         result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
       }
     });
+    
 });
-})
+let empty=document.getElementById('like');
+let  full=document.getElementById('like-fill');
+let like=false;
+function likeClick(){
+    if(like===false ){
+        empty.classList.add('d-none');
+        full.classList.remove('d-none');
+        like=true;
+    }else{
+        full.classList.add('d-none');
+        empty.classList.remove('d-none');
+        like=false;
+    }
+    
+}
